@@ -33,3 +33,10 @@
   font-size: 16px;
   color: #5290fd;
 }
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 80%;
+    align-self: center;
+  }
+}

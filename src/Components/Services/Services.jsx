@@ -11,7 +11,7 @@ const Services = () => {
   const transition = { duration: "1", type: "spring" };
 
   return (
-    <div className="services">
+    <div className="services" id="Services">
       {/*left side*/}
       <div className="awesome">
         <span>My Awesome</span>

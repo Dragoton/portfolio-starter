@@ -53,7 +53,7 @@ const Testimonial = () => {
         {clients.map((client, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="testimonial">
+              <div className="testimonial" id="Testimonial">
                 <img src={client.img} alt="" />
                 <span>{client.review}</span>
               </div>
