@@ -5,7 +5,11 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../Card/Card";
 import Resume from "./resume.pdf";
+import { motion } from "framer-motion";
+
 const Services = () => {
+  const transition = { duration: "1", type: "spring" };
+
   return (
     <div className="services">
       {/*left side*/}
@@ -25,13 +29,18 @@ const Services = () => {
       </div>
       {/*right side*/}
       <div className="cards">
-        <div style={{ left: "14rem" }}>
+        <motion.div
+          whileInView={{ left: "14rem" }}
+          initial={{ left: "25%" }}
+          transition={transition}
+          style={{ left: "14rem" }}
+        >
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
             detail={"Figma, UX, Bold, Sky"}
           />
-        </div>
+        </motion.div>
         {/*Secodn card */}
         <div style={{ top: "12rem", left: "-4rem" }}>
           <Card
