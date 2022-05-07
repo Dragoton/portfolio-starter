@@ -30,10 +30,9 @@ const Services = () => {
       {/*right side*/}
       <div className="cards">
         <motion.div
-          whileInView={{ left: "14rem" }}
-          initial={{ left: "25%" }}
+          whileInView={{ left: "20rem" }}
+          initial={{ left: "50%" }}
           transition={transition}
-          style={{ left: "14rem" }}
         >
           <Card
             emoji={HeartEmoji}
@@ -42,22 +41,30 @@ const Services = () => {
           />
         </motion.div>
         {/*Secodn card */}
-        <div style={{ top: "12rem", left: "-4rem" }}>
+        <motion.div
+          initial={{ left: "-11rem", top: "12rem" }}
+          whileInView={{ left: "-4rem" }}
+          transition={transition}
+        >
           <Card
             emoji={Glasses}
             heading={"So smart"}
             detail={"Photoshop, UX, Soup, Sky"}
           />
-        </div>
+        </motion.div>
         {/*3 card */}
 
-        <div style={{ top: "19rem", left: "12rem" }}>
+        <motion.div
+          initial={{ top: "19rem", left: "25rem" }}
+          whileInView={{ left: "12rem" }}
+          transition={transition}
+        >
           <Card
             emoji={Humble}
             heading={"Mega smart"}
             detail={"Photoshop, UX, Soup, Sky"}
           />
-        </div>
+        </motion.div>
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
