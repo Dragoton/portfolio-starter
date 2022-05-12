@@ -25,10 +25,10 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
-      <Experience />
       <Works />
       <Portfolio />
       <Testimonial />
+      <Experience />
       <Contact />
       <Footer />
     </div>

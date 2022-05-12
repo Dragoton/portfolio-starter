@@ -20,11 +20,12 @@ const Intro = () => {
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hy! I am</span>
-          <span>Drago</span>
+          <span>Hi! I am</span>
+          <span>DRAGO</span>
           <span>
-            secretary-general of the Communist Party of the Soviet Union
-            (1922-53) and premier of the Soviet state (1941-53)
+            Frontend / Multimedia design student looking for internship
+            <br />
+            and much more.
           </span>
         </div>
         <button className="button i-button">Hire me</button>
