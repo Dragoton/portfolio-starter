@@ -20,7 +20,7 @@ const Intro = () => {
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hi! I am</span>
+          <span>HI! I AM</span>
           <span>DRAGO</span>
           <span>
             Frontend / Multimedia design student looking for internship
@@ -28,7 +28,6 @@ const Intro = () => {
             and much more.
           </span>
         </div>
-        <button className="button i-button">Hire me</button>
         <div className="i-icons">
           <a href="www.index.hr">
             <img src={Instagram} alt="" />
@@ -54,7 +53,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
+          <FloatingDiv image={Crown} txt1="WEB" txt2="DEVELOPER" />
         </motion.div>
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}

@@ -7,10 +7,11 @@
   align-items: center;
   padding: 0px 28px 0px 0px;
   height: 4.5rem;
+  border: 1px solid var(--orange);
 }
 
 .floatingdiv > img {
-  transform: scale(0.4);
+  transform: scale(0.6);
 }
 
 .floatingdiv > span {

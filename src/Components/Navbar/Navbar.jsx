@@ -2,16 +2,14 @@ import React from "react";
 import "./Navbar.css";
 import Toggle from "../Toggle/Toggle";
 import { Link } from "react-scroll";
-import Logo from "../../img/logo.svg";
 
 const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">
-          <img src={Logo} alt="" />
+          <h1>DRAGO</h1>
         </div>
-        <Toggle />
       </div>
       <div className="n-right">
         <div className="n-list">
@@ -41,6 +39,7 @@ const Navbar = () => {
               {" "}
               <li>CONTACT</li>
             </Link>
+            <Toggle />
           </ul>
         </div>
       </div>

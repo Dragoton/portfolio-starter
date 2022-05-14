@@ -1,13 +1,14 @@
 :root {
   --yellow: #f5c32c;
-  --orange: #fca61f;
-  --black: #242d49;
+  --orange: #02356a;
+  --black: #edf5e0;
   --gray: #788097;
   --blueCard: #ddf8fe;
   --purple: rgb(238 210 255);
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --orangeCard: rgba(252, 166, 31, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  background-color: #5cdb94;
 }
 
 .App {
@@ -23,7 +24,6 @@
   background-color: var(--orange);
   font-size: 12px;
   padding: 5px;
-  box-shadow: 0px 20px 20px 3px;
 }
 
 .button:hover {
