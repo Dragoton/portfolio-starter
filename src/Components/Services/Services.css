@@ -1,7 +1,7 @@
 .services {
-  padding: 0 2rem 0 2rem;
+  padding: 0 3rem 0 3rem;
   display: flex;
-  height: 90vh;
+  height: 70vh;
   margin-bottom: 8rem;
   margin-top: 9rem;
   margin-bottom: 13rem;
@@ -11,30 +11,42 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-right: 2rem;
 }
 
 .awesome > :nth-child(1) {
   color: var(--yellow);
-  font-size: 3rem;
   font-weight: bold;
+  font-size: 3rem;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .awesome > :nth-child(2) {
   color: var(--black);
   font-size: 3rem;
   font-weight: bold;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-transform: none;
 }
 
 .awesome > :nth-child(3) {
   color: var(--grey);
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-top: 1rem;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.awesome > :nth-child(3):hover {
+  color: #ffef99;
 }
 
 .s-button {
   width: 8rem;
   height: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  color: black;
 }
 
 .cards {

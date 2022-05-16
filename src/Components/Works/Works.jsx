@@ -4,7 +4,7 @@ import Illustrator from "../../img/illustrator.png";
 import Reacta from "../../img/react.png";
 import Javascript from "../../img/javascript.png";
 import Wordpress from "../../img/wordpress.png";
-import Photoshop from "../../img/photoshop.png";
+import Github from "../../img/github.png";
 import { motion } from "framer-motion";
 
 const Works = () => {
@@ -14,13 +14,11 @@ const Works = () => {
         <span>WORKING WITH</span>
         <span>ALL THIS TOOLS</span>
         <span>
-          For planning, design, content creation and development
+          Different projects require different tools.
           <br />
-          After completing his apprenticeship in September 1910
+          In my education, I used various applications
           <br />
-          During his apprenticeship, Broz was encouraged to mark May Day in 1909
-          <br />
-          After completing his apprenticeship in September 1910
+          in the process of developing of solutions.
         </span>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -37,7 +35,7 @@ const Works = () => {
             <img src={Illustrator} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Photoshop} alt="" />
+            <img src={Github} alt="" />
           </div>
           <div className="w-secCircle">
             <img src={Javascript} alt="" />

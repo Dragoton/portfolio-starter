@@ -34,9 +34,14 @@
   color: white;
 }
 
-.n-list > ul > li:hover {
+.n-list li {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+.n-list li:hover {
   cursor: pointer;
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 .n-button {

@@ -13,6 +13,27 @@
   align-items: center;
 }
 
+.experience_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience_div :nth-child(1) {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+.experience_div :nth-child(2) {
+  color: var(--yellow);
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
 .circle {
   width: 4rem;
   height: 4rem;
@@ -25,7 +46,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  color: var(--orange);
+  color: rgb(130, 130, 130);
 }
 
 .circle::before {

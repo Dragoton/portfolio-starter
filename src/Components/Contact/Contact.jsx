@@ -36,10 +36,7 @@ const Contact = () => {
           <span>Get in touch</span>
           <span>Contact me</span>
 
-          <div
-            className="blur c-blur1"
-            style={{ background: "#ABF1FF94" }}
-          ></div>
+          <div className="blur c-blur1" style={{ background: "#ADD8E5" }}></div>
         </div>
       </div>
       <div className="c-right">
@@ -59,10 +56,7 @@ const Contact = () => {
           <textarea name="message" className="user" placeholder="message" />
           <input type="submit" value="send" className="button" />
           <span>{done && "thanks for contact"} </span>
-          <div
-            className="blur c-blur1"
-            style={{ background: "var(--purple)" }}
-          ></div>
+          <div className="blur c-blur1" style={{ background: "#ADD8E5" }}></div>
         </form>
       </div>
     </div>

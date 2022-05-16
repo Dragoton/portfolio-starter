@@ -1,10 +1,10 @@
 import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import Home from "../../img/home.png";
+import Work from "../../img/work.png";
+import Education from "../../img/education.png";
+import Fun from "../../img/fun.png";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import "swiper/css";
@@ -12,24 +12,24 @@ import "swiper/css";
 const Testimonial = () => {
   const clients = [
     {
-      img: profilePic1,
+      img: Home,
       review:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "I was born in Zagreb, Croatia, and I have been calling Copenhagen my home for the last two and a half years. Along with Multimedia design, I also attend a Danish language school. Rødgrød med fløde.",
     },
     {
-      img: profilePic2,
+      img: Work,
       review:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "Of the relevant jobs, I have 6 years of work experience in sales of IT and telecommunications services to Small and medium-sized enterprises (SMEs). I worked independently, but as part of a team.",
     },
     {
-      img: profilePic3,
+      img: Education,
       review:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "I am also educated in Crisis Management, a bachelor's degree. Some of the subjects are relevant like “Data Security” and “Computer Science” and some like “Terrorism” and “Weapons of Mass Destruction” are not.",
     },
     {
-      img: profilePic4,
+      img: Fun,
       review:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "In my free time I like to travel, read comics, cook and do barbecues. Good humor is very important to me because all the other things I love do not make sense without it. And I love beer.",
     },
   ];
   return (
@@ -37,11 +37,8 @@ const Testimonial = () => {
       <div className="t-heading">
         <span>MORE</span>
         <span>ABOUT ME</span>
-        <div
-          className="blur t-blur1"
-          style={{ background: "var(--purple)" }}
-        ></div>
-        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
+        <div className="blur t-blur1" style={{ background: "#ADD8E5" }}></div>
+        <div className="blur t-blur2" style={{ background: "#ADD8E5" }}></div>
       </div>
       {/*Swipper */}
       <Swiper

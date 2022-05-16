@@ -8,7 +8,7 @@ import Resume from "./resume.pdf";
 import { motion } from "framer-motion";
 
 const Services = () => {
-  const transition = { duration: "1", type: "spring" };
+  const transition = { duration: "2", type: "spring" };
 
   return (
     <div className="services" id="Services">
@@ -20,7 +20,9 @@ const Services = () => {
           During my Multimedia Design education at
           <br />
           KEA - Copenhagen School of Design,
-          <br />I learned various skills in the design and IT world.
+          <br />I learned various skills in the
+          <br />
+          design and IT world.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -35,8 +37,8 @@ const Services = () => {
         >
           <Card
             emoji={Planning}
-            heading={"Design"}
-            detail={"Figma, UX, Bold, Sky"}
+            heading={"Business"}
+            detail={"...researching, testing, planning..."}
           />
         </motion.div>
         {/*Secodn card */}
@@ -47,8 +49,8 @@ const Services = () => {
         >
           <Card
             emoji={Design}
-            heading={"So smart"}
-            detail={"Photoshop, UX, Soup, Sky"}
+            heading={"Design"}
+            detail={"...blend, drawing, recording..."}
           />
         </motion.div>
         {/*3 card */}
@@ -60,14 +62,11 @@ const Services = () => {
         >
           <Card
             emoji={Developing}
-            heading={"Mega smart"}
-            detail={"Photoshop, UX, Soup, Sky"}
+            heading={"Developing"}
+            detail={"...coding, saving, fixing..."}
           />
         </motion.div>
-        <div
-          className="blur s-blur2"
-          style={{ background: "var(--black)" }}
-        ></div>
+        <div className="blur s-blur2" style={{ background: "#ADD8E5" }}></div>
       </div>
     </div>
   );

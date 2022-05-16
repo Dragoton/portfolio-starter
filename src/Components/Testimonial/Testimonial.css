@@ -33,13 +33,8 @@
 }
 
 .t-blur1 {
-  left: 38rem;
-  top: 16rem;
-}
-
-.t-blur2 {
-  left: 0rem;
-  top: 9rem;
+  left: 10rem;
+  top: 10rem;
 }
 
 .testimonial {
@@ -51,19 +46,22 @@
   padding: 2rem;
   height: 12rem;
   background: rgba(255, 255, 255, 0.26);
-  border: 7px solid var(--blueCard);
+  border: 2px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
 }
 
 .testimonial > img {
+  transform: scale(0.8);
   width: 6rem;
   height: 6rem;
-  border-radius: 100%;
 }
 
 .testimonial > span {
-  color: var(--grey);
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
 .t-wrapper .swiper {
@@ -78,7 +76,7 @@
 }
 
 .t-wrapper .swiper-pagination-bullet-active {
-  background: var(--orange);
+  background: var(--yellow);
 }
 
 @media screen and (max-width: 480px) {

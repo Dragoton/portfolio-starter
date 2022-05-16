@@ -24,6 +24,8 @@
   background-color: var(--yellow);
   font-size: 12px;
   padding: 5px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 .button:hover {

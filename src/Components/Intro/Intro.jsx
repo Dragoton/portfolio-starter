@@ -1,6 +1,5 @@
 import React from "react";
 import "./Intro.css";
-import Instagram from "../../img/instagram.png";
 import LinkedIn from "../../img/linkedin.png";
 import Github from "../../img/github.png";
 
@@ -22,18 +21,24 @@ const Intro = () => {
         <div className="i-name">
           <span>Hi! I am</span>
           <span>DRAGO</span>
-          <span>
-            Frontend / Multimedia design student looking for internship
+          <div>
+            Frontend / Multimedia design student
+            <br />
+            looking for internship
             <br />
             and much more.
-          </span>
+          </div>
         </div>
         <div className="i-icons">
-          <a href="www.index.hr">
-            <img src={Instagram} alt="" />
+          <a href="https://linkedin.com/in/drago-tomasic">
+            <img src={LinkedIn} alt="" />
           </a>
-          <img src={LinkedIn} alt="" />
-          <img src={Github} alt="" />
+          <a href="https://github.com/Dragoton">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://github.com/Dragoton">
+            <img src={Github} alt="" />
+          </a>
         </div>
       </div>
       <div className="i-right">
@@ -53,7 +58,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatingDiv image={WebDev} txt1="WEB" txt2="DEVELOPER" />
+          <FloatingDiv image={WebDev} txt1="Web" txt2="Developing" />
         </motion.div>
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}
@@ -61,7 +66,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatingDiv image={thumbup} txt1="Best player" txt2="Web game" />
+          <FloatingDiv image={thumbup} txt1="Ideation" txt2="and design" />
         </motion.div>
         {/*blur divs*/}
         <div className="blur" style={{ background: "var(--black)" }}></div>
