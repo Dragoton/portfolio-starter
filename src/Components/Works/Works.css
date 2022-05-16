@@ -1,5 +1,5 @@
 .works {
-  padding: 0 3rem 0 3rem;
+  padding: 0 2rem 0 2rem;
   display: flex;
   height: 90vh;
   margin-top: 4rem;
@@ -77,13 +77,13 @@
 }
 
 .blueCircle {
-  background: #1949b8;
+  background: #0563c1;
   left: 17rem;
   top: 0rem;
 }
 
 .yellowCircle {
-  background: yellow;
+  background: var(--yellow);
   left: 16rem;
   top: 8rem;
 }

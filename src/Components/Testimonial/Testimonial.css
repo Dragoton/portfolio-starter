@@ -11,7 +11,10 @@
 }
 
 .t-heading {
-  align-self: start;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .t-heading > * {
@@ -19,8 +22,14 @@
   font-weight: bold;
 }
 
+.t-heading span:nth-child(1) {
+  font-size: 2rem;
+  font-weight: bold;
+}
 .t-heading span:nth-child(2) {
-  color: var(--orange);
+  color: var(--yellow);
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .t-blur1 {

@@ -1,6 +1,6 @@
 .intro {
   display: flex;
-  height: 77vh;
+  height: 74vh;
   margin-top: 6rem;
 }
 
@@ -33,7 +33,7 @@
 .i-name > :nth-child(3) {
   color: var(--gray);
   font-weight: 100;
-  font-size: 14px;
+  font-size: 1.1rem;
   margin-top: 10px;
 }
 
@@ -66,14 +66,14 @@
 
 .i-right > :nth-child(1) {
   transform: scale(0.3);
-  left: 15%;
-  top: -9%;
+  left: -60%;
+  top: -3%;
 }
 
 .i-right > :nth-child(2) {
-  top: -6.6rem;
-  transform: scale(0.3);
-  left: -3rem;
+  top: 2rem;
+  transform: scale(0.33);
+  left: -0.1rem;
 }
 
 .i-right > :nth-child(4) {
@@ -85,16 +85,16 @@
 }
 
 .i-right > :nth-child(3) {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .blur {
   position: absolute;
-  width: 13rem;
+  width: 60rem;
   height: 11rem;
   border-radius: 50%;
   background: white;
-  filter: blur(72px);
+  filter: blur(100px);
   z-index: -10;
   top: -2%;
   left: 50%;

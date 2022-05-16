@@ -42,14 +42,14 @@ const Intro = () => {
         <img src={Drago} alt="" />
         <motion.img
           initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
+          whileInView={{ left: "-14%" }}
           transition={transition}
           src={glassesimoji}
           alt=""
         />
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
+          whileInView={{ left: "56%" }}
           transition={transition}
           className="floating-div"
         >

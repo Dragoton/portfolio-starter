@@ -25,12 +25,13 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
+  color: var(--orange);
 }
 
 .circle::before {
   border-radius: 100%;
   content: "";
-  background-image: linear-gradient(to bottom, #87e6fb 0%, var(--orange) 100%);
+  background-image: linear-gradient(to bottom, var(--black) 0%, #4aa4ff 100%);
   top: -8px;
   left: -8px;
   bottom: -8px;
@@ -41,7 +42,7 @@
 }
 
 .achievement span:nth-child(3) {
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 @media screen and (max-width: 480px) {

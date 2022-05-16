@@ -1,5 +1,5 @@
 .services {
-  padding: 0 3rem 0 3rem;
+  padding: 0 2rem 0 2rem;
   display: flex;
   height: 90vh;
   margin-bottom: 8rem;
@@ -14,20 +14,20 @@
 }
 
 .awesome > :nth-child(1) {
-  color: var(--black);
-  font-size: 2.5rem;
+  color: var(--yellow);
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .awesome > :nth-child(2) {
-  color: var(--orange);
-  font-size: 2.5rem;
+  color: var(--black);
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .awesome > :nth-child(3) {
   color: var(--grey);
-  font-size: 14px;
+  font-size: 0.7rem;
   margin-top: 1rem;
 }
 
@@ -43,14 +43,6 @@
 
 .cards > * {
   position: absolute;
-}
-
-.s-blur2 {
-  translate: scale(0.1);
-}
-
-.s-blur1 {
-  translate: scale(0.1);
 }
 
 @media screen and (max-width: 480px) {
