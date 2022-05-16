@@ -1,7 +1,7 @@
 .toggle {
   display: flex;
   justify-content: space-between;
-  border: 3px solid var(--orange);
+  border: 3px solid var(--black);
   border-radius: 1rem;
   position: relative;
   padding: 2px;
@@ -11,11 +11,15 @@
 .toggle > * {
   width: 1rem;
   height: 1rem;
-  color: var(--orange);
+  color: var(--yellow);
+}
+
+.toggle > :nth-child(1) {
+  color: rgb(166, 247, 247);
 }
 
 .t-button {
   border-radius: 100%;
-  background: var(--orange);
+  background: var(--yellow);
   position: absolute;
 }

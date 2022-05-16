@@ -8,7 +8,7 @@ import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import Drago from "../../img/drago1.png";
 import thumbup from "../../img/thumbup.png";
-import Crown from "../../img/crown.png";
+import WebDev from "../../img/develop.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { motion } from "framer-motion";
@@ -20,7 +20,7 @@ const Intro = () => {
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>HI! I AM</span>
+          <span>Hi! I am</span>
           <span>DRAGO</span>
           <span>
             Frontend / Multimedia design student looking for internship
@@ -53,7 +53,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatingDiv image={Crown} txt1="WEB" txt2="DEVELOPER" />
+          <FloatingDiv image={WebDev} txt1="WEB" txt2="DEVELOPER" />
         </motion.div>
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}
@@ -64,7 +64,7 @@ const Intro = () => {
           <FloatingDiv image={thumbup} txt1="Best player" txt2="Web game" />
         </motion.div>
         {/*blur divs*/}
-        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div className="blur" style={{ background: "var(--black)" }}></div>
         <div
           className="blur"
           style={{

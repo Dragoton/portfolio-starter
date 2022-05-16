@@ -1,21 +1,20 @@
 import React from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Illustrator from "../../img/illustrator.png";
+import Reacta from "../../img/react.png";
+import Javascript from "../../img/javascript.png";
+import Wordpress from "../../img/wordpress.png";
+import Photoshop from "../../img/photoshop.png";
 import { motion } from "framer-motion";
-
 
 const Works = () => {
   return (
     <div className="works">
       <div className="awesome">
-        <span>Work for All these</span>
-        <span>Brand Clienst</span>
+        <span>WORKING WITH</span>
+        <span>ALL THIS TOOLS</span>
         <span>
-          During his apprenticeship, Broz was encouraged to mark May Day in 1909
+          For planning, design, content creation and development
           <br />
           After completing his apprenticeship in September 1910
           <br />
@@ -23,7 +22,6 @@ const Works = () => {
           <br />
           After completing his apprenticeship in September 1910
         </span>
-        <button className="button s-button">Hire me</button>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/*right side */}
@@ -36,19 +34,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={Illustrator} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={Photoshop} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Javascript} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Wordpress} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Reacta} alt="" />
           </div>
         </motion.div>
         <div className="w-backCircle blueCircle"></div>

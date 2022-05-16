@@ -11,8 +11,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="Portfolio">
       {/* heading */}
-      <span>Recent projects</span>
-      <span>Portfolio</span>
+      <span>RECENT PROJECTS</span>
+      <span>PORTFOLIO</span>
       {/* slider */}
       <Swiper
         spaceBetween={30}

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Services.css";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import Planning from "../../img/planning.png";
+import Design from "../../img/design.png";
+import Developing from "../../img/developing.png";
 import Card from "../Card/Card";
 import Resume from "./resume.pdf";
 import { motion } from "framer-motion";
@@ -14,18 +14,17 @@ const Services = () => {
     <div className="services" id="Services">
       {/*left side*/}
       <div className="awesome">
-        <span>My Awesome</span>
-        <span>services</span>
+        <span>MY AWESOME</span>
+        <span>EDUCATION</span>
         <span>
-          During his apprenticeship, Broz was encouraged to mark May Day in 1909
+          During my Multimedia Design education at
           <br />
-          After completing his apprenticeship in September 1910
+          KEA - Copenhagen School of Design,
+          <br />I learned various skills in the design and IT world.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
-
-        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/*right side*/}
       <div className="cards">
@@ -35,7 +34,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
+            emoji={Planning}
             heading={"Design"}
             detail={"Figma, UX, Bold, Sky"}
           />
@@ -47,7 +46,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
+            emoji={Design}
             heading={"So smart"}
             detail={"Photoshop, UX, Soup, Sky"}
           />
@@ -60,14 +59,14 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
+            emoji={Developing}
             heading={"Mega smart"}
             detail={"Photoshop, UX, Soup, Sky"}
           />
         </motion.div>
         <div
           className="blur s-blur2"
-          style={{ background: "var(--purple)" }}
+          style={{ background: "var(--black)" }}
         ></div>
       </div>
     </div>

@@ -45,6 +45,14 @@
   position: absolute;
 }
 
+.s-blur2 {
+  translate: scale(0.1);
+}
+
+.s-blur1 {
+  translate: scale(0.1);
+}
+
 @media screen and (max-width: 480px) {
   .services {
     margin-top: 0;
