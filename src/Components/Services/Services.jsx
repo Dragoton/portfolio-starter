@@ -8,7 +8,7 @@ import Resume from "./resume.pdf";
 import { motion } from "framer-motion";
 
 const Services = () => {
-  const transition = { duration: "2", type: "spring" };
+  const transition = { duration: "1", type: "spring" };
 
   return (
     <div className="services" id="Services">
@@ -43,8 +43,8 @@ const Services = () => {
         </motion.div>
         {/*Secodn card */}
         <motion.div
-          initial={{ left: "-11rem", top: "12rem" }}
-          whileInView={{ left: "-4rem" }}
+          initial={{ left: "-6rem", top: "12rem" }}
+          whileInView={{ left: "2rem" }}
           transition={transition}
         >
           <Card
@@ -57,7 +57,7 @@ const Services = () => {
 
         <motion.div
           initial={{ top: "19rem", left: "25rem" }}
-          whileInView={{ left: "12rem" }}
+          whileInView={{ left: "16rem" }}
           transition={transition}
         >
           <Card

@@ -1,7 +1,5 @@
 import React from "react";
 import "./Intro.css";
-import LinkedIn from "../../img/linkedin.png";
-import Github from "../../img/github.png";
 
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
@@ -29,22 +27,14 @@ const Intro = () => {
             and much more.
           </div>
         </div>
-        <div className="i-icons">
-          <a href="https://linkedin.com/in/drago-tomasic">
-            <img src={LinkedIn} alt="" />
-          </a>
-          <a href="https://github.com/Dragoton">
-            <img src={Github} alt="" />
-          </a>
-          <a href="https://github.com/Dragoton">
-            <img src={Github} alt="" />
-          </a>
-        </div>
       </div>
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={Drago} alt="" />
+        <div>
+          <img src={Drago} alt="" />
+        </div>
+
         <motion.img
           initial={{ left: "-36%" }}
           whileInView={{ left: "-14%" }}

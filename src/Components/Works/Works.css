@@ -1,7 +1,6 @@
 .works {
   padding: 0 2rem 0 2rem;
   display: flex;
-  height: 70vh;
   margin-top: 4rem;
 }
 
@@ -9,6 +8,7 @@
 
 .w-right {
   position: relative;
+  transform: scale(0.9);
 }
 
 .w-mainCircle {
@@ -88,11 +88,13 @@
   top: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1230px) {
   .works {
     flex-direction: column;
     padding: 0;
     gap: 5rem;
+    align-items: center;
+    margin-top: 30rem;
   }
 
   .w-right {
@@ -108,5 +110,19 @@
 
   .w-backCircle {
     left: 8rem !important;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .works {
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .works {
+    margin-top: 0rem;
+    margin-bottom: 15rem;
   }
 }

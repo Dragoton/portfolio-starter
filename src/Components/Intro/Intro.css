@@ -1,6 +1,6 @@
 .intro {
   display: flex;
-  height: 74vh;
+  height: 90vh;
   margin-top: 6rem;
   padding: 0 2rem 0 2rem;
 }
@@ -55,16 +55,6 @@
   height: 2rem;
 }
 
-.i-icons {
-  display: flex;
-}
-.i-icons > * {
-  transform: scale(0.45);
-}
-.i-icons > *:hover {
-  cursor: pointer;
-}
-
 .i-right {
   flex: 1;
   position: relative;
@@ -112,15 +102,16 @@
   left: 50%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .intro {
     flex-direction: column;
-    height: 47rem;
-    gap: 7rem;
+    margin-top: 3rem;
+    height: 90vh;
+    padding-bottom: 8rem;
   }
   .i-right {
-    transform: scale(0.7);
-    left: -3rem;
+    transform: scale(0.9);
+    left: 3rem;
   }
 
   .i.right .blur {
@@ -133,5 +124,28 @@
 
   .floating-div:nth-of-type(1) {
     top: -7rem !important;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .i-name :nth-child(2) {
+    font-size: 4rem;
+  }
+
+  .i-right {
+    transform: scale(0.8);
+    left: -1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    height: 64rem;
+  }
+
+  .i-right {
+    transform: scale(0.8);
+    left: -1.5rem;
   }
 }

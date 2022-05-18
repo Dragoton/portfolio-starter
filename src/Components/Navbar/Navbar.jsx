@@ -39,9 +39,9 @@ const Navbar = () => {
               {" "}
               <li>CONTACT</li>
             </Link>
-            <Toggle />
           </ul>
         </div>
+        <Toggle />
       </div>
     </div>
   );

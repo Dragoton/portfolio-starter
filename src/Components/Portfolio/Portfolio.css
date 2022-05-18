@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 90vh;
 }
 
 /*heading*/
@@ -11,6 +11,7 @@
   color: var(--black);
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .portfolio span:nth-of-type(2) {

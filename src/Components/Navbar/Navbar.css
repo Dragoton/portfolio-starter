@@ -17,7 +17,6 @@
 
 .n-right {
   display: flex;
-  flex: 1;
   align-items: center;
   justify-content: center;
   font-weight: 400;
@@ -54,5 +53,14 @@
   }
   .n-button {
     display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .n-list {
+    display: none;
+  }
+  .n-right {
+    justify-content: space-between;
   }
 }

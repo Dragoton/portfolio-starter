@@ -2,20 +2,25 @@ import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
 
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Github from "@iconscout/react-unicons/icons/uil-github";
+import LinkedIn from "../../img/linkedin.png";
+import Github from "../../img/github.png";
+import Gmail from "../../img/gmail.png";
 
 const Footer = () => {
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>drago.tomasic@gmail.com</span>
-        <div className="f-icons">
-          <Insta color="white" size="3rem" />
-          <Facebook color="white" size="3rem" />
-          <Github color="white" size="3rem" />
+        <div className="i-icons">
+          <a href="https://linkedin.com/in/drago-tomasic">
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://github.com/Dragoton">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://github.com/Dragoton">
+            <img src={Gmail} alt="" />
+          </a>
         </div>
       </div>
     </div>

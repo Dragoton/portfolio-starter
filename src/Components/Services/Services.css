@@ -1,7 +1,7 @@
 .services {
   padding: 0 3rem 0 3rem;
   display: flex;
-  height: 70vh;
+  height: 75vh;
   margin-bottom: 8rem;
   margin-top: 9rem;
   margin-bottom: 13rem;
@@ -65,13 +65,52 @@
     height: 66rem;
     padding: 0;
   }
+}
+
+@media screen and (max-width: 690px) {
+  .services {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
 
   .cards {
     display: flex;
     flex-direction: column;
-    gap: 17rem;
+    gap: 12rem;
   }
   .cards > * {
     position: static;
+  }
+
+  .blur {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .services {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 0;
+  }
+
+  .awesome > :nth-child(1) {
+    font-size: 2rem;
+  }
+
+  .awesome > :nth-child(2) {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .services {
+    margin-top: 0;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
   }
 }

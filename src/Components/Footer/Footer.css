@@ -18,7 +18,24 @@
   color: white;
 }
 
-.f-icons {
+.i-icons {
+  padding-top: 8rem;
   display: flex;
-  gap: 2rem;
+  flex-direction: row;
+}
+.i-icons > * {
+  transform: scale(0.4);
+  margin-left: -1.8rem;
+  margin-right: -0.5rem;
+  margin-top: -2.7rem;
+}
+.i-icons > *:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .i-icons {
+    padding-top: 2rem;
+    transform: scale(0.8);
+  }
 }
