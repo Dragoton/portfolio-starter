@@ -8,7 +8,6 @@ const Navbar = () => {
     <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">
-          <h1>DRAGO</h1>
         </div>
       </div>
       <div className="n-right">

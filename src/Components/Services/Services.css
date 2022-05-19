@@ -73,13 +73,13 @@
     flex-direction: column;
     gap: 5rem;
     height: 66rem;
-    padding: 0;
   }
 
   .cards {
     display: flex;
     flex-direction: column;
     gap: 12rem;
+    padding-left: 0;
   }
   .cards > * {
     position: static;
@@ -112,5 +112,8 @@
     flex-direction: column;
     padding: 0;
     justify-content: center;
+  }
+  .cards {
+    transform: scale(0.8);
   }
 }
