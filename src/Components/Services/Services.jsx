@@ -4,7 +4,7 @@ import Planning from "../../img/planning.png";
 import Design from "../../img/design.png";
 import Developing from "../../img/developing.png";
 import Card from "../Card/Card";
-import Resume from "./resume.pdf";
+import Resume from "./Drago_Tomasic_internship_CV.pdf";
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -19,10 +19,13 @@ const Services = () => {
         <span>
           During my Multimedia Design education at
           <br />
-          KEA - Copenhagen School of Design,
-          <br />I learned various skills in the
+          <a className="keaLink" href="https://kea.dk/">
+            KEA - Copenhagen School of Design
+          </a>
+          ,
+          <br />I learned various design
           <br />
-          design and IT world.
+          and developer skills.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -63,7 +66,7 @@ const Services = () => {
           <Card
             emoji={Developing}
             heading={"Developing"}
-            detail={"...coding, saving, fixing..."}
+            detail={"...coding, fixing, saving..."}
           />
         </motion.div>
         <div className="blur s-blur2" style={{ background: "#ADD8E5" }}></div>

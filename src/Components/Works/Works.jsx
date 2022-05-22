@@ -16,9 +16,9 @@ const Works = () => {
         <span>
           Different projects require different tools.
           <br />
-          That's how we are at KEA used various tools
+          At KEA, I worked with a lot of diverse tools.
           <br />
-          in the process of developing of solutions.
+          These are just some of them.
         </span>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

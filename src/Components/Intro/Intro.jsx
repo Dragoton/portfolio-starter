@@ -10,7 +10,6 @@ import glassesimoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { motion } from "framer-motion";
 
-
 const Intro = () => {
   const transition = { duration: 2, type: "spring" };
 

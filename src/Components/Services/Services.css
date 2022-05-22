@@ -57,6 +57,16 @@
   position: absolute;
 }
 
+.keaLink {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.keaLink:hover {
+  color: var(--yellow);
+}
+
 @media screen and (max-width: 480px) {
   .services {
     margin-top: 0;
