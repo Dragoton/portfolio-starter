@@ -1,10 +1,10 @@
 import React from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Tasja from "../../img/tasja.png";
+import Carbon from "../../img/carbon.png";
+import FirstPortfolio from "../../img/first_portfolio.png";
+import Louisiana from "../../img/louisiana.png";
 import "swiper/css";
 
 const Portfolio = () => {
@@ -21,16 +21,24 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href="https://dragoon.dk/tasja/">
+            <img src={Tasja} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://carbonfreeprojectforuni.netlify.app/">
+            <img src={Carbon} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="https://louisianamuseum.netlify.app">
+            <img src={Louisiana} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a href="https://dragoon.dk/portfolio/">
+            <img src={FirstPortfolio} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

@@ -81,7 +81,7 @@
 }
 
 .t-wrapper .swiper-pagination-bullet {
-  background: orange;
+  background: var(--yellow);
 }
 
 @media screen and (max-width: 380px) {

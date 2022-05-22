@@ -16,7 +16,7 @@ const Works = () => {
         <span>
           Different projects require different tools.
           <br />
-          In my education, I used various applications
+          That's how we are at KEA used various tools
           <br />
           in the process of developing of solutions.
         </span>
