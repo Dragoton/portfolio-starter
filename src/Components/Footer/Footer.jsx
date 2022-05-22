@@ -5,7 +5,6 @@ import Wave from "../../img/wave.png";
 import LinkedIn from "../../img/linkedin.png";
 import Github from "../../img/github.png";
 import Gmail from "../../img/gmail.png";
-import newLogo from "../../img/newlogo.png";
 
 const Footer = () => {
   return (
@@ -22,9 +21,6 @@ const Footer = () => {
           <a href="https://github.com/Dragoton">
             <img src={Gmail} alt="" />
           </a>
-        </div>
-        <div class="newLogo">
-          <img src={newLogo} alt=""></img>
         </div>
       </div>
     </div>
