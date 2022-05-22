@@ -29,7 +29,7 @@ const Testimonial = () => {
     {
       img: Fun,
       review:
-        "In my free time I like to travel, read comics, cook and do barbecues. Good humor is very important to me because all the other things I love do not make sense without it. And I love beer.",
+        "In my free time I like to travel, read comics and books, cook and do barbecues. Good humor is very important to me because all the other things I love do not make sense without it. And I love beer.",
     },
   ];
   return (
