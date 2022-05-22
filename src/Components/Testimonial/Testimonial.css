@@ -26,12 +26,14 @@
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .t-heading span:nth-child(2) {
   color: var(--yellow);
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .t-blur1 {
@@ -60,6 +62,7 @@
 .testimonial > span {
   color: black;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
   text-align: center;
   line-height: 1rem;
   font-size: 16px;

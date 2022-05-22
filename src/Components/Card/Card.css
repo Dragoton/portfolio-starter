@@ -1,10 +1,9 @@
 .card {
   width: 8rem;
-  height: 9rem;
+  height: 9.3rem;
   position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
   align-items: center;
   width: 10rem;
   text-align: center;
@@ -24,9 +23,10 @@
 .card span:nth-child(3) {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: white;
+  font-size: 16px;
 }
 .card > img {
-  transform: scale(0.6);
+  transform: scale(0.5);
   margin-bottom: -2rem;
 }
 

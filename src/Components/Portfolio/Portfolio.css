@@ -12,12 +12,14 @@
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .portfolio span:nth-of-type(2) {
   color: var(--yellow);
   font-size: 3rem;
   font-weight: bold;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .portfolio .swiper {

@@ -11,7 +11,7 @@
 }
 
 .floatingdiv > img {
-  transform: scale(0.6);
+  transform: scale(0.5);
 }
 
 .floatingdiv > span {
