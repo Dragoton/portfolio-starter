@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Tasja from "../../img/tasja.png";
 import Carbon from "../../img/carbon.png";
-import FirstPortfolio from "../../img/first_portfolio.png";
+import LastProject from "../../img/lastproject.png";
 import Louisiana from "../../img/louisiana.png";
 import "swiper/css";
 
@@ -21,6 +21,11 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <a href="https://asgaard-fest.netlify.app/">
+            <img src={LastProject} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
           <a href="https://dragoon.dk/tasja/">
             <img src={Tasja} alt="" />
           </a>
@@ -33,11 +38,6 @@ const Portfolio = () => {
         <SwiperSlide>
           <a href="https://louisianamuseum.netlify.app">
             <img src={Louisiana} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://dragoon.dk/portfolio/">
-            <img src={FirstPortfolio} alt="" />
           </a>
         </SwiperSlide>
       </Swiper>
