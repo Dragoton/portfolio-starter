@@ -1,5 +1,5 @@
 .n-wrapper {
-  height: 10vh;
+  height: 4vh;
   display: flex;
 }
 
@@ -8,7 +8,7 @@
   align-items: center;
   display: flex;
   gap: 2rem;
-  max-width: 20%;
+  max-width: 45%;
 }
 
 .n-right {

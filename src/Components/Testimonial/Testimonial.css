@@ -47,8 +47,7 @@
   justify-content: space-evenly;
   width: 25rem;
   padding: 2rem;
-  height: 16rem;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.09);
   border: 2px solid var(--blueCard);
   border-radius: 20px;
 }
@@ -60,12 +59,12 @@
 }
 
 .testimonial > span {
-  color: black;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   line-height: 1rem;
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .t-wrapper .swiper {
@@ -96,6 +95,8 @@
 @media screen and (max-width: 744px) {
   .testimonial {
     height: auto;
+    display: flex;
+    flex-direction: column;
   }
   .t-wrapper {
     padding: 0;
@@ -104,5 +105,11 @@
   .testimonial > img {
     width: 70px;
     height: 70px;
+    margin-bottom: 1rem;
+  }
+
+  .testimonial > span {
+    line-height: 1rem;
+    font-size: 13px;
   }
 }

@@ -45,15 +45,19 @@ const Contact = () => {
             type="text"
             name="user_name"
             className="user"
-            placeholder="name"
+            placeholder="YOUR NAME"
           />
           <input
             type="email"
             name="user_email"
             className="user"
-            placeholder="e-mail"
+            placeholder="YOUR E-MAIL"
           />
-          <textarea name="message" className="user" placeholder="message" />
+          <textarea
+            name="message"
+            className="user"
+            placeholder="YOUR MESSAGE"
+          />
           <input type="submit" value="send" className="button" />
           <span className="email_answer">
             {done && "Tak! I have an email!"}{" "}

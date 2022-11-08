@@ -14,22 +14,22 @@ const Testimonial = () => {
     {
       img: Home,
       review:
-        "I was born in Zagreb, Croatia, and I have been calling Copenhagen my home for the last two and a half years. Along with Multimedia design, I also attend a Danish language school. Rødgrød med fløde.",
+        "I was born in Zagreb, Croatia, and I have been calling Copenhagen my home for the last two and a half years. Along with Production technology, I also finished a fifth module at Danish language school. Rødgrød med fløde.",
     },
     {
       img: Work,
       review:
-        "Of the relevant jobs, I have 6 years of work experience in sales of IT and telecommunications services to Small and medium-sized enterprises (SMEs). I worked independently, but as part of a team.",
+        "Of the relevant jobs, I worked as a public relations specialist and journalist. In Denmark along with my education, I also work as a floral assistant in the flower shop, and occasionally in a small coffee shop.",
     },
     {
       img: Education,
       review:
-        "I am also educated in Crisis Management, a bachelor's degree. Some of the subjects are relevant like “Data Security” and “Computer Science” and some like “Terrorism” and “Weapons of Mass Destruction” are not.",
+        "From my previous education, I have a Master's degree in Industrial Design from the Faculty of Textile Technology Zagreb. I was awarded with prize for the best innovation in sport and recreation at INOVA 2018.",
     },
     {
       img: Fun,
       review:
-        "In my free time I like to travel, read comics and books, cook and do barbecues. Good humor is very important to me because all the other things I love do not make sense without it. And I love beer.",
+        "In my free time, I like to relax with painting and art crafting. I use Danish rainless days for cycling or walks by the sea, and the rainy ones for reading books, Netflix and solving sudoku.",
     },
   ];
   return (

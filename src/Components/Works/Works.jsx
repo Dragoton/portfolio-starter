@@ -1,10 +1,10 @@
 import React from "react";
 import "./Works.css";
-import Illustrator from "../../img/illustrator.png";
-import Reacta from "../../img/react.png";
-import Javascript from "../../img/javascript.png";
-import Wordpress from "../../img/wordpress.png";
-import Github from "../../img/github.png";
+import Granta from "../../img/granta2.png";
+import SolidWorks from "../../img/solidworksicon2.png";
+import Tia from "../../img/tia2.png";
+import Robo from "../../img/robo2.png";
+import Ent from "../../img/ed2.png";
 import { motion } from "framer-motion";
 
 const Works = () => {
@@ -32,19 +32,29 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Illustrator} alt="" />
+            <a href="https://www.ansys.com/products/materials/granta-edupack">
+              <img src={Granta} alt="" />
+            </a>
           </div>
           <div className="w-secCircle">
-            <img src={Github} alt="" />
+            <a href="https://robodk.com/">
+              <img src={Robo} alt="" />
+            </a>
           </div>
           <div className="w-secCircle">
-            <img src={Javascript} alt="" />
+            <a href="https://www.solidworks.com/">
+              <img src={SolidWorks} alt="" />
+            </a>
           </div>
           <div className="w-secCircle">
-            <img src={Wordpress} alt="" />
+            <a href="https://www.incontrolsim.com/enterprise-dynamics-10-5-released/">
+              <img src={Ent} alt="" />
+            </a>
           </div>
           <div className="w-secCircle">
-            <img src={Reacta} alt="" />
+            <a href="https://new.siemens.com/global/en/products/automation/topic-areas/tia.html">
+              <img src={Tia} alt="" />
+            </a>
           </div>
         </motion.div>
         <div className="w-backCircle blueCircle"></div>

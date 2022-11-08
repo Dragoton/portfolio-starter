@@ -1,15 +1,11 @@
 .card {
-  width: 8rem;
-  height: 9.3rem;
+  height: fit-content;
   position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 10rem;
-  text-align: center;
   background: rgba(255, 255, 255, 0.09);
-  border-radius: 50px;
-  padding: 0px 26px 2rem 26px;
+  border-radius: 25px;
+  padding: 0px 26px 2.3rem 26px;
 }
 
 .card span:nth-child(2) {
@@ -20,14 +16,39 @@
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
-.card span:nth-child(3) {
+.card-text {
+  color: #e9d412;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-heading {
+  display: flex;
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+.card-text:nth-child(1) {
+  justify-content: center;
+}
+
+.heading-span {
+  justify-self: center;
+  text-align: center;
+}
+
+.heading-span span {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
 }
-.card > img {
-  transform: scale(0.5);
-  margin-bottom: -2rem;
+.card-image {
+  transform: scale(0.7);
+  margin-bottom: -1.8rem;
+  padding-bottom: 1rem;
+}
+.card-image:nth-child(1) {
+  align-self: center;
 }
 
 .c-button {
@@ -40,16 +61,47 @@
   color: #5290fd;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 770px) {
   .card {
-    width: 80%;
-    align-self: center;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+  .card-text {
+    padding-top: 2rem;
+  }
+
+  .card-image {
+    padding-bottom: 0;
   }
 }
 
-@media screen and (max-width: 690px) {
-  .cards {
-    width: 80%;
-    align-self: center;
+@media screen and (max-width: 570px) {
+  .card {
+    position: absolute;
+    display: flex;
+    background: rgba(255, 255, 255, 0.09);
+    padding: 0px 5px 1rem 5px;
+  }
+  .card-image {
+    transform: scale(0.5);
+  }
+
+  .card-text {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card {
+    position: absolute;
+    display: flex;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 50px;
+    padding: 0px 5px 1rem 5px;
+  }
+
+  .card-image {
+    padding-bottom: 0.3rem;
   }
 }

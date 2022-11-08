@@ -1,10 +1,12 @@
 import React from "react";
 import "./Services.css";
-import Planning from "../../img/planning.png";
-import Design from "../../img/design.png";
-import Developing from "../../img/developing.png";
+import Material from "../../img/material.png";
+import Automatisation from "../../img/robot.png";
+import BusTech from "../../img/cpu.png";
+import ProductDev from "../../img/Launch.png";
+import Quality from "../../img/speed.png";
 import Card from "../Card/Card";
-import Resume from "./Drago_Tomasic_internship_CV.pdf";
+import Resume from "./Martina-Peck-Tijeglic-CV.pdf";
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -16,16 +18,24 @@ const Services = () => {
       <div className="awesome">
         <span>MY AWESOME</span>
         <span>EDUCATION</span>
-        <span>
-          During my Multimedia Design education at
+        <span className="span-text-intro">
+          During my
+          <br />
+          <a
+            className="techLink"
+            href="https://kea.dk/en/programmes/academy-profession-degree/production-technology"
+          >
+            Production technology education
+          </a>
+          at
           <br />
           <a className="keaLink" href="https://kea.dk/">
             KEA - Copenhagen School of Design
           </a>
           ,
-          <br />I learned various design
+          <br />I learned various professional
           <br />
-          and developer skills.
+          and personal skills.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -34,42 +44,71 @@ const Services = () => {
       {/*right side*/}
       <div className="cards">
         <motion.div
-          whileInView={{ left: "15rem" }}
-          initial={{ left: "60%" }}
+          whileInView={{ left: "35%" }}
+          initial={{ left: "50%" }}
           transition={transition}
         >
           <Card
-            emoji={Planning}
-            heading={"Business"}
-            detail={"...researching, testing, planning..."}
+            emoji={Material}
+            heading={"MATERIAL SELECTION"}
+            detail={
+              "Material properties, sustainability and the right choice of materials."
+            }
           />
         </motion.div>
         {/*Secodn card */}
         <motion.div
-          initial={{ left: "-6rem", top: "12rem" }}
-          whileInView={{ left: "2rem" }}
+          initial={{ left: "-1%", top: "15rem" }}
+          whileInView={{ left: "-3%", top: "15rem" }}
           transition={transition}
         >
           <Card
-            emoji={Design}
-            heading={"Design"}
-            detail={"...blend, drawing, recording..."}
+            emoji={Automatisation}
+            heading={"INDUSTRIAL AUTOMATION"}
+            detail={
+              "PLC programming, simulations and system testing, building of a functional prototype."
+            }
           />
         </motion.div>
         {/*3 card */}
 
         <motion.div
-          initial={{ top: "19rem", left: "25rem" }}
-          whileInView={{ left: "16rem" }}
+          whileInView={{ left: "52%", top: "18rem" }}
+          initial={{ top: "18rem", left: "70%" }}
           transition={transition}
         >
           <Card
-            emoji={Developing}
-            heading={"Developing"}
-            detail={"...coding, fixing, saving..."}
+            emoji={ProductDev}
+            heading={"PRODUCT DEVELOPMENT"}
+            detail={
+              "From idea to realization using key methods, Solidworks and 3D printing."
+            }
           />
         </motion.div>
-        <div className="blur s-blur2" style={{ background: "#ADD8E5" }}></div>
+        <motion.div
+          whileInView={{ left: "52%", top: "39rem" }}
+          initial={{ left: "70%", top: "39rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={Quality}
+            heading={"QUALITY MANAGEMENT SYSTEM"}
+            detail={
+              "Project planning and implementation, product optimization and LEAN method."
+            }
+          />
+        </motion.div>
+        <motion.div
+          initial={{ left: "-1%", top: "36rem" }}
+          whileInView={{ left: "-3%", top: "36rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={BusTech}
+            heading={"BUSINESS TECHNOLOGY"}
+            detail={"Data collection, economic considerations."}
+          />
+        </motion.div>
       </div>
     </div>
   );

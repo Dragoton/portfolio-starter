@@ -29,10 +29,11 @@
   height: 2rem;
   padding: 0.3rem;
   outline: none;
-  border: 2px solid var(--orange);
+  border: 1px solid var(--orange);
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 11px;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  
 }
 
 textarea {

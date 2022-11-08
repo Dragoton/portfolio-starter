@@ -3,10 +3,10 @@ import "./Intro.css";
 
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import Drago from "../../img/drago1.png";
+import Martina from "../../img/martina.png";
 import thumbup from "../../img/thumbup.png";
 import WebDev from "../../img/develop.png";
-import glassesimoji from "../../img/glassesimoji.png";
+import glassesimoji from "../../img/bulb.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { motion } from "framer-motion";
 
@@ -18,21 +18,17 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           <span>Hi! I am</span>
-          <span>DRAGO</span>
-          <div>
-            Frontend / Multimedia design student
-            <br />
-            looking for internship
-            <br />
-            and much more.
-          </div>
+          <span>MARTINA</span>
+          <span>
+            Production Technology student looking for internship and much more.
+          </span>
         </div>
       </div>
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <div>
-          <img src={Drago} alt="" />
+          <img src={Martina} alt="" />
         </div>
 
         <motion.img
@@ -44,19 +40,23 @@ const Intro = () => {
         />
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "56%" }}
+          whileInView={{ left: "53%" }}
           transition={transition}
           className="floating-div"
         >
-          <FloatingDiv image={WebDev} txt1="Web" txt2="Developing" />
+          <FloatingDiv image={WebDev} txt1="Process" txt2="optimization" />
         </motion.div>
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
+          whileInView={{ left: "-2rem" }}
           transition={transition}
           className="floating-div"
         >
-          <FloatingDiv image={thumbup} txt1="Ideation" txt2="and design" />
+          <FloatingDiv
+            image={thumbup}
+            txt1="Teamwork and"
+            txt2="communication"
+          />
         </motion.div>
         {/*blur divs*/}
         <div className="blur" style={{ background: "var(--black)" }}></div>
